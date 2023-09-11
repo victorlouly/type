@@ -394,7 +394,7 @@ services:
   typebot-viewer:
     ports:
       - $portaviewer:3000
-    image: baptistearno/typebot-viewer:main
+    image: baptistearno/typebot-viewer:v2.16.0
     restart: always
     environment:
       - DATABASE_URL=postgresql://postgres:typebot@typebot-db:5432/typebot
