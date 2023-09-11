@@ -362,7 +362,7 @@ services:
   typebot-builder:
     ports:
       - $portabuilder:3000
-    image: baptistearno/typebot-builder:main
+    image: baptistearno/typebot-builder:v2.16.0
     restart: always
     depends_on:
       - typebot-db
